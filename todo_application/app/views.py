@@ -8,3 +8,5 @@ def todo_view(request)  :
 
     return render(request,'todo_details.html',{'todo_data':data})
 
+#class Todo_View(request):
+
